@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.appersiano.covid.ui.nazione.NazioneFragment"
+        android:label="@string/title_nazione"
+        tools:layout="@layout/fragment_nazione" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.appersiano.covid.ui.regione.RegioneFragment"
+        android:label="@string/title_regioni"
+        tools:layout="@layout/fragment_regione" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.appersiano.covid.ui.donazioni.DonazioniFragment"
+        android:label="@string/title_donazioni"
+        tools:layout="@layout/fragment_donazioni" />
+    <fragment
+        android:id="@+id/navigation_faq"
+        android:name="com.appersiano.covid.ui.faq.FAQFragment"
+        android:label="@string/title_faq"
+        tools:layout="@layout/fragment_faq"/>
+</navigation>

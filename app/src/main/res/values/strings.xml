@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Covid Italia Live</string>
+    <string name="title_nazione">Nazione</string>
+    <string name="title_regioni">Regioni</string>
+    <string name="title_donazioni">Donazioni</string>
+    <string name="title_faq">FAQ</string>
+</resources>
