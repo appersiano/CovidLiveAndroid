@@ -46,8 +46,8 @@ class NazioneFragment : Fragment() {
             tvLastUpdated.text =  "Ultimo aggiornamento ${it.data}"
 
             with(cvPositivi) {
-                setDelta("+${it.nuovi_attualmente_positivi} da ieri")
-                setTotalValue(it.totale_attualmente_positivi)
+                setDelta("+${it.variazione_totale_positivi} da ieri")
+                setTotalValue(it.totale_positivi)
                 setSubDesc("Totali fino ad oggi ${it.totale_casi}")
             }
 
